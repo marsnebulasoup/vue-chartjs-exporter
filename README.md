@@ -1,5 +1,5 @@
 # vue-chartjs-exporter
-Export charts created by [vue-chartjs](https://vue-chartjs.org/) to PDF files. 
+Export charts created by [vue-chartjs](https://vue-chartjs.org/) to PDF files. Demo [here](https://0odv9.csb.app/).
 
 **Read the Requirements section below before proceeding, because it contains important information that will have you off looking for an easier solution 😑. Look into [Quickchart.io](https://quickchart.io) for an easier but not necessarily free solution.**
 
