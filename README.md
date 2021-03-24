@@ -48,7 +48,7 @@ Apparently, (locally) converting charts from chart.js is actually not that easy,
 [![failure 3][3]][3]
 [![failure 4][4]][4]
 
-You can't create two charts, one formatted the way you like, and the other formatter for conversion, and hide them with v-show or v-if, unfortunately. However, you can place the conversion-formatted ones off-screen so they're not visible directly, but are still there.
+You can't create two charts, one formatted the way you like, and the other formatter for conversion, and hide them with `v-show` or `v-if`, unfortunately, as far as I can tell (if you find a way though, do let me know). However, you can place the conversion-formatted ones off-screen so they're not visible directly, but are still there.
 
 If you do all this, though, you can end up with some rather nice looking chart PDFs:
 
@@ -88,7 +88,7 @@ Something like this:
 
 The other chart is hidden off to the left where you can't see it.
 
-Both charts would be populated with the same data, but when you export to PDF, the off-screen chart would be converted to a PDF, not the one that the user would see. This is overly complicated, but its the only way I could find. If you try to hide charts with v-if or v-show, when you show the hidden chart, the other one will be deleted for some reason. Perhaps you could create a single component that would create the two charts together, to make things easier, but that would require further work.
+Both charts would be populated with the same data, but when you export to PDF, the off-screen chart would be converted to a PDF, not the one that the user would see. This is overly complicated, but it's the only way I could find. If you try to hide charts with v-if or v-show, when you show the hidden chart, the other one will be deleted for some reason. Perhaps you could create a single component that would create the two charts together, to make things easier, but that would require further work.
 
 Also note that you might have to increase the distance the hidden chart is moved left if it is still showing on screen.
 
