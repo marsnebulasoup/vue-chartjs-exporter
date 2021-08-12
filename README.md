@@ -48,7 +48,7 @@ Apparently, (locally) converting charts from chart.js is actually not that easy,
 [![failure 3][3]][3]
 [![failure 4][4]][4]
 
-You can't create two charts, one formatted the way you like, and the other formatter for conversion, and hide them with `v-show` or `v-if`, unfortunately, as far as I can tell (if you find a way though, do let me know). However, you can place the conversion-formatted ones off-screen so they're not visible directly, but are still there.
+You can't create two charts, one formatted the way you like, and the other formatted for conversion, and hide them with `v-show` or `v-if`, unfortunately, as far as I can tell (if you find a way though, do let me know). However, you can place the conversion-formatted ones off-screen so they're not visible directly, but are still there.
 
 If you do all this, though, you can end up with some rather nice looking chart PDFs:
 
